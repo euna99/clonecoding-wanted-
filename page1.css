@@ -1,5 +1,7 @@
 html{
     overflow-y:scroll;
+    width:100vw;
+    height:100vh;
 }
 *{
     /* border: 1px solid black; */
@@ -30,6 +32,7 @@ a{
 .center li{
     margin-left:50px;
 }
+
 .center{
     display:flex;
     list-style: none;
@@ -71,7 +74,7 @@ a{
 
 .sec_first{
     padding: 60px 0px;
-    margin:0px 200px;
+    margin:0px 20%;
     border-bottom:1px solid #444444;
 }
 
@@ -115,7 +118,7 @@ a{
 }
 
 /* 나에게 필요한 커리어 인사이트 버튼 속성 지정 끝 */
-
+/* {height:calc(100vh - 250px) */
 
 .wrapper {
     width:1080px;
@@ -158,8 +161,8 @@ img {
 
 
 .sec_second{
-    margin:0xp 200px;
     padding: 60px 0px;
+    margin:0px 20%;
     border-bottom:1px solid #444444;
 }
 
@@ -168,12 +171,11 @@ img {
 }
 
 .wrapper_second{
-    width:1400px;
-    height: 480px;
+    width:1080px;
+    height: 716px;
 }
 
 .article{
-    margin-left:170px;
     width:1060px;
     height: 360px;
     display: flex;
