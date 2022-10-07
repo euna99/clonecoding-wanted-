@@ -72,6 +72,7 @@ a{
 .sec_first{
     padding: 60px 0px;
     margin:0px 200px;
+    border-bottom:1px solid #444444;
 }
 
 
@@ -145,7 +146,7 @@ img {
 }
 
 #more{
-    width:325px;
+    width:345px;
     height: 50px;
     padding:0px 27px;
     width:300px;
@@ -154,9 +155,45 @@ img {
     background-color: white;
 }
 
-.article{
-    margin-top:50px;
+
+
+.sec_second{
+    margin:0xp 200px;
+    padding: 60px 0px;
+    border-bottom:1px solid #444444;
 }
-    
 
+.title{
+    text-align: center;
+}
 
+.wrapper_second{
+    width:1400px;
+    height: 480px;
+}
+
+.article{
+    margin-left:170px;
+    width:1060px;
+    height: 360px;
+    display: flex;
+    list-style: none;
+}
+
+.article li{
+    width:270px;
+    height: 290px;
+    margin:0px 10px;
+} 
+
+.article p{
+    width: 250px;
+    height: 42px;
+    overflow: hidden;
+}
+
+img {
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+}
