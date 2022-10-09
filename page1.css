@@ -15,6 +15,9 @@ a{
     color:black;  
 }
 
+div{
+    width:max-content;
+}
 
 .navbar{
     display: flex;
@@ -68,26 +71,29 @@ a{
 }
 
 .imgbar{
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
 } 
 
+/* img 끝 */
+
+
 .sec_first{
-    padding: 60px 0px;
-    margin:0px 20%;
+
     border-bottom:1px solid #444444;
+    width: 100vw;
 }
 
 
 .title_bar{
+    margin: 40px auto;
     display: flex;
-    justify-content : center;
 }
 
 
 .bar{
     text-align: center;
-    margin:30px 0px;
+    margin: 20px auto;
 }
 
 .bar button{
@@ -97,9 +103,9 @@ a{
 .btnb{
     font-size: 15px;
     width: 100%;
-    font-size: inherit;
+    /* font-size: inherit;
     font-weight: inherit;
-    display: inherit;
+    display: inherit; */
 }
 
 #btna{
@@ -118,15 +124,14 @@ a{
 }
 
 /* 나에게 필요한 커리어 인사이트 버튼 속성 지정 끝 */
-/* {height:calc(100vh - 250px) */
 
 .wrapper {
-    width:1080px;
     height: 716px;
+    margin: 0 auto;
 }
 
 .site{
-    width:1080px;
+    width: 1080px;
     display: flex;
     flex-wrap: wrap; 
     list-style: none;
@@ -158,21 +163,23 @@ img {
     background-color: white;
 }
 
-
+/* .sec_first 끝 */
 
 .sec_second{
+    width:100vw;
+    height: 400px;
     padding: 60px 0px;
-    margin:0px 20%;
     border-bottom:1px solid #444444;
 }
 
 .title{
     text-align: center;
+    margin: 40px auto;
 }
+    
 
 .wrapper_second{
-    width:1080px;
-    height: 716px;
+    margin: 0 auto;
 }
 
 .article{
@@ -194,8 +201,68 @@ img {
     overflow: hidden;
 }
 
+/* img {
+    width: 250px;
+    height: 175px;
+    object-fit: cover;
+} */
+
+/* .sec_second 끝 */
+
+.sec_thrid{
+    width:100vw;
+    height: 400px;
+    padding: 60px 0px;
+    border-bottom:1px solid #444444;
+}
+
+.title{
+    margin: 40px auto;
+    
+}
+
+.wrapper_thrid{
+    margin: 0 auto;
+}
+
+.VOD{
+    width:1060px;
+    height: 360px;
+    display: flex;
+    list-style: none;
+}
+
+.VOD li{
+    width:270px;
+    height: 290px;
+    margin:0px 10px;
+} 
+
+.VOD p{
+    width: 250px;
+    height: 42px;
+    overflow: hidden;
+}
+
 img {
     width: 250px;
     height: 175px;
     object-fit: cover;
 }
+
+ 
+
+/* .sec_thrid 끝 */
+
+/* 
+div{
+    width:max-content;
+    height: 200;
+}
+
+.content{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+    background-color: blue;
+} */
