@@ -105,3 +105,32 @@ article{
     width:147px;
     height: 37px;
 }
+
+.ing {
+    height: 900px;
+    margin: 0 auto;
+}
+
+.ingul{
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap; 
+    list-style: none;
+}
+
+.ingul li{
+    width:250px;
+    margin:0px 10px;
+} 
+
+.ingul p{
+    width: 250px;
+    height: 42px;
+    overflow: hidden;
+}
+
+img {
+    width: 200px;
+    height: 175px;
+    object-fit: cover;
+}
