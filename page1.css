@@ -48,6 +48,7 @@ div{
     justify-content: space-between;
 }
 
+
 #sign{
     width: 20;
     color:blue;
@@ -59,20 +60,34 @@ div{
 }
 #service{
     margin-left:20px; 
-    border: none;
+    border:0.5px solid #e1e2e3;
+    background-color: white;
+    border-radius: 30%;
 }
 /* navbar 끝 */
 
-.img{
-    width:100%;
-    padding:25px 0px 0px;
+.img_wrap{
+    margin: 0 auto;
     /* display: flex; */
     /* justify-content: center; */
 }
 
 .imgbar{
+    width: 1200px;
     margin: 0 auto;
-    text-align: center;
+    list-style: none;
+
+}  
+/* 
+.imgbar li{
+    width:1000px;
+    display: inline-block; 
+}*/
+
+.imgbar img{
+    padding:20px 40px;
+    width:1000px;
+    object-fit: cover; 
 } 
 
 /* img 끝 */
@@ -125,7 +140,7 @@ div{
 
 /* 나에게 필요한 커리어 인사이트 버튼 속성 지정 끝 */
 
-.wrapper {
+.wrapper_first {
     height: 716px;
     margin: 0 auto;
 }
@@ -154,11 +169,13 @@ img {
 }
 
 #more{
+    margin:50px auto;
+}
+.more{
     width:345px;
     height: 50px;
     padding:0px 27px;
     width:300px;
-    margin:0px 325px;
     border-radius: 30px;
     background-color: white;
 }
@@ -213,7 +230,7 @@ img {
     width:100vw;
     height: 400px;
     padding: 60px 0px;
-    border-bottom:1px solid #444444;
+    /* border-bottom:1px solid #444444; */
 }
 
 .title{
@@ -250,19 +267,120 @@ img {
     object-fit: cover;
 }
 
- 
 
 /* .sec_thrid 끝 */
-
 /* 
-div{
-    width:max-content;
-    height: 200;
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #999FF0;
+} */
+
+.content{ 
+    width:1060px;
+    height:64px;
+    padding:10px auto;
+    margin:30px 25%;
+    background-color: skyblue;
+    border-radius: 20%;
+    border: none;
 }
 
-.content{
+
+.sec_four{
+    height: 400px;
+    padding: 60px 40px;
+    /* border-bottom:1px solid #444444; */
+}
+
+
+.wrapper_four{
+    margin: 0 auto;
+}
+
+.event{
+    width:1060px;
+    height: 360px;
+    display: flex;
+    list-style: none;
+}
+
+.event li{
+    width:500px;
+    height: 350px;
+    margin:0px 10px;
+}
+
+
+.event p{
+    width: 250px;
+    height: 42px;
+    overflow: hidden;
+}
+
+.event_img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.reason{
+    background-color:lightgray;
+    display:flex;
+}
+
+.reason_1{
+    margin:auto;
+    flex-direction: row;
+}
+
+.reason_2{
+    margin:auto;
+}
+
+.hire{
+    margin:0 auto;
+}
+
+.hire_1{
+    margin:0 auto;
+}
+
+.hire_container{
+    margin:auto;
+    width:1000px;
+    height:80px;
+    display:flex;
+
+}
+.hire_2{
+    border:1px solid black;
+    width:250px;
     text-align: center;
-    width: max-content;
-    height: max-content;
-    background-color: blue;
-} */
+    padding:10px
+    
+}
+.hire_3{
+    width:250px;
+    text-align: center;
+    
+}
+
+.SvgIcon{
+    width:30px;
+    height: 30px;
+}
+
+.hire_4{
+    width:250px;
+    text-align: center;
+    
+}
+
+.footer img{
+    width:60px;
+    height: 20px;
+}
