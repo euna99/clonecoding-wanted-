@@ -21,16 +21,25 @@ div{
 }  
 /* div 전체 속성을 정해줌 */
 
-.navbar
+.navbar{
     justify-content:space-evenly;
     align-items: center;
     padding: 8px 12px;
     border-bottom: 0.5px solid #444444;
+    display: flex;
 }
 
 .left{
     font-size: 24px;
     height: fit-content;
+}
+
+/* .left a:hover
+{
+
+} */
+#test{
+    display:none;
 }
 
 .center li{
@@ -440,6 +449,7 @@ footer{
     width:80px;
     height:39px ;
     margin-right: 45px;
+    font
 }
 .SocialLinks a{
     width:39px;
