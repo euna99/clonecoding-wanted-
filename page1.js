@@ -10,7 +10,6 @@
 // })
 
 //hamberger 버튼 
-
 let sign=document.querySelector("#sign")
 let sign_div=document.querySelector(".sign_div")
 sign.addEventListener("click",function(event){

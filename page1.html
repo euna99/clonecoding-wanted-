@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./page1.css">
     <link rel="stylesheet" href="./event.css">
+    <script src="./includeHTML.js"></script>
+    <!-- <script src="./includeHTML.js"></script> -->
 </head>
 <body>
     <div class="header">
@@ -17,24 +19,10 @@
                         <img src="./hamberger.webp" 
                         style="width:14px;height:17px;object-fit:contain">
                     </button>
-                    <div id="test">
-                        <ul>
-                                <li>직군전체</li>
-                                <li>개발</li>
-                                <li>경영.비즈니스</li>
-                                <li>마케팅.광고</li>
-                                <li>디자인</li>
-                                <li>영업</li>
-                                <li>고객서비스</li>
-                                <li>게임제작</li>
-                                <li>HR</li>
-                                <li>미디어</li>
-                                <li>제조.생산</li>
-                                <li>물류.무역</li>
-                        </ul>
-                    </div> 
-                    <!-- hover메뉴 id=test -->
                     <a href="./">wanted</a>
+                    <script>
+                        includeHTML("hover.html");
+                    </script>
                 </div>     
             </div>
 
@@ -57,22 +45,9 @@
                 <path id="qt2dnsql4a" d="M15.727 17.273a.563.563 0 10.796-.796l-4.875-4.875-.19-.165a.563.563 0 00-.764.028 5.063 5.063 0 111.261-2.068.562.562 0 101.073.338 6.188 6.188 0 10-1.943 2.894l4.642 4.644z"></path></defs><g fill="none" fill-rule="evenodd"><use fill="#333" fill-rule="nonzero" stroke="#333" stroke-width=".3" xlink:href="#qt2dnsql4a"></use></g></svg>
                 </button>
                 <button id="sign">회원가입하기</button>
-                <div class="sign_div">
-                    <article>
-                        <div class = "login_wrapper">
-                            <h1>wanted</h1>
-                            <p>
-                                직장인을 위한 커리어 플랫폼, 원티드!
-                            </p>
-                            <div class="form"></div>    
-                                <span>이메일</span>
-                                <input class = "login_email" type="text" name="id" placeholder="이메일">
-                                <button id="LOGIN_BTN" class = "login_btn" type="button" disabled>로그인</button>
-                            </div> 
-                            <a class = "login_bottom" href="" >비밀번호를 잊으셨나요?</a>
-                        </div>
-                    </article>
-                </div>
+                <script>
+                    includeHTML("sign.html");
+                </script>
                 <!-- sign_div 끝 -->
                 <button id="service">기업서비스</button>
             </div>
@@ -444,6 +419,7 @@
     </footer>
 
     <script type="text/javascript" src="./page1.js"></script>
+    
     </body>
 </html>
 
