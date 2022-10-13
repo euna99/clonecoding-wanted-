@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./page1.css">
-    <link rel="stylesheet" href="./event.css">
-    <script src="./includeHTML.js"></script>
+    <!-- <link rel="stylesheet" href="../css/page1.css"> -->
+    <link rel="stylesheet" href="../css/event.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/includeHTML.js"></script>
     <!-- <script src="./includeHTML.js"></script> -->
 </head>
 <body>
     <div class="header">
-        <nav class="navbar">
-            <div>
+        <div class="navbar">
                 <div class="left">
                     <button id="hamberger">
-                        <img src="./hamberger.webp" 
-                        style="width:14px;height:17px;object-fit:contain">
+                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ficon-menu.png&w=undefined&q=75" 
+                        style="width:17px;height:20px;object-fit:contain">
                     </button>
-                    <a href="./">wanted</a>
+                    <a href="./">
+                        <img src="../480a35976bf401a88dd7388d8f5c19d77227cd35.png" alt="">
+                    </a>
                     <script>
                         includeHTML("hover.html");
                     </script>
                 </div>     
-            </div>
+            
 
-            <ul class="center">
-                <li><a href="">채용</a></li>
-                <li><a href="">이벤트</a></li>
-                <li><a href="">직군별 연봉</a></li>
-                <li><a href="">이력서</a></li>
-                <li><a href="">커뮤니티</a></li>
-                <li><a href="">프리랜서</a></li>
-                <li><a href="">AI 합격예측</a></li>
-            </ul>
+                <ul class="center">
+                    <li><a href="">채용</a></li>
+                    <li><a href="">이벤트</a></li>
+                    <li><a href="">직군별 연봉</a></li>
+                    <li><a href="">이력서</a></li>
+                    <li><a href="">커뮤니티</a></li>
+                    <li><a href="">프리랜서</a></li>
+                    <li><a href="">AI 합격예측</a></li>
+                </ul>
+
 
             <div class="right">
                 <button id="serch">
@@ -44,14 +47,14 @@
                 <defs>
                 <path id="qt2dnsql4a" d="M15.727 17.273a.563.563 0 10.796-.796l-4.875-4.875-.19-.165a.563.563 0 00-.764.028 5.063 5.063 0 111.261-2.068.562.562 0 101.073.338 6.188 6.188 0 10-1.943 2.894l4.642 4.644z"></path></defs><g fill="none" fill-rule="evenodd"><use fill="#333" fill-rule="nonzero" stroke="#333" stroke-width=".3" xlink:href="#qt2dnsql4a"></use></g></svg>
                 </button>
-                <button id="sign">회원가입하기</button>
+                <button id="sign">회원가입/로그인</button>
                 <script>
                     includeHTML("sign.html");
                 </script>
                 <!-- sign_div 끝 -->
                 <button id="service">기업서비스</button>
             </div>
-        </nav> 
+        </div> 
     </div>
 <!-- navbar1 끝 -->
 
@@ -68,9 +71,12 @@
 
 
     <section class="sec_first">
-        <div class="title_bar">
-            <h2>나에게 필요한 커리어 인사이트</h2>
-            <button style="align-items:center;border-radius: 50%; border:none;"> ? </button>
+        <div class="title_first">
+            <h2>나에게 필요한 커리어 인사이트
+                <button >
+                    ?  <!-- <img src="" alt=""> -->
+                </button>
+            </h2>
         </div>
 
         <div class="bar">
@@ -113,41 +119,42 @@
             <ul class="site">
                 <li>
                     <a href="">
-                            <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210915%2F2%2F16220799.jpg&w=500&q=75"
-                            alt="">
-                            <p>이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
+                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210915%2F2%2F16220799.jpg&w=500&q=75"
+                        alt="">
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                            <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                            alt="">
-                            <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                                각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
+                        alt="">
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
-                            <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                            alt="">
-                            <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                                각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
+                        alt="">
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
                         alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
                         alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 
@@ -155,29 +162,28 @@
                     <a href="">
                         <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
                         alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
                         alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                    </a>
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                 </li>
                 <li>
                     <a href="">
                         <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
                         alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
+                        <p class="tit_p">포토폴리오 개선하기</p>
+                        <p class="infor_p">이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
                     </a>
                 </li>      
             </ul>
-            <div id="more">
-                <button class="more">더 많은 콘텐츠 보기</button>
+            <div class="more">
+                <button class="more_btn">더 많은 콘텐츠 보기</button>
             </div>     
         </div>
     </section>
@@ -186,7 +192,7 @@
 
 
     <section class="sec_second">
-        <div class="title">
+        <div class="title_second">
             <h2>3분만에 읽는 Wanted+아티클</h2>
             <a href="https://www.wanted.co.kr/events?sort=deadline&label=article&payable=all">아티클 전체보기 ></a>
         </div>
@@ -228,7 +234,7 @@
     </section>
 
     <section class="sec_thrid">
-        <div class="title">
+        <div class="title_bar">
             <h2>직장인을 위한 Wanted+ VOD</h2>
             <a href="https://www.wanted.co.kr/events?sort=deadline&label=article&payable=all">
                 VOD 전체보기</a>
@@ -416,11 +422,11 @@
                     </a>
                 </div>
 
-    </footer>
-
-    <script type="text/javascript" src="./page1.js"></script>
+            </footer>
+        <script type="text/javascript" src="./page1.js"></script>
     
     </body>
 </html>
 
 // <!-- position: absolute;top:0p;left:0;width:100%;height:100% -->
+
