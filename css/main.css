@@ -386,3 +386,12 @@ section{
     width: 250px;
     height: 175px;
 }
+
+/* .sec_second 끝 */
+
+.sec_thrid{
+    width:100vw;
+    height: 400px;
+    padding: 60px 0px;
+    /* border-bottom:1px solid #444444; */
+}
