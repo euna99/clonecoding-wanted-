@@ -34,13 +34,13 @@
 // }
 
 
-let hamberger = document.getElementsByID("hamberger");
-let test=document.getElementById("test");
+let hamberger = document.querySelector("#hamberger");
+let test=document.querySelector("#test");
 hamberger.addEventListener("mouseover",function(event){
-    test.style.display="block"
+    test.style.display="block";
 })
 hamberger.addEventListener("mouseout",function(event){
-    test.style.display="none"
+    test.style.display="none";
 })
 
 

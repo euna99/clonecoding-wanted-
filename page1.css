@@ -40,7 +40,19 @@ div{
 } */
 #test{
     display:none;
+    width:70px;
+    overflow-y: scroll;
+    border: #444444;
 }
+
+#test ul{
+    width:70px;
+}
+#test li{
+    font-size: 8px;
+    float: left;
+}
+
 
 .center li{
     margin-left:50px;
