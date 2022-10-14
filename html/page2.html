@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./page2.css">
-    <link rel="stylesheet" href="./event.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/page2.css">
 </head>
 <body>
     <nav class="navbar">
         <div>
             <div class="left">
-                <button><img src="./hamberger.webp" 
-                    style="width:14px;height:17px;object-fit:contain"></button>
-                <a href="./">wanted</a>
+                <a id="hamberger"><img src="../hamberger.webp" 
+                    style="width:14px;height:17px;object-fit:contain"></a>
+                    <a href="./">
+                        <img src="../480a35976bf401a88dd7388d8f5c19d77227cd35.png" alt="">
+                    </a>
+                    <script>
+                        includeHTML("hover.html");
+                    </script>
+                </div>     
             </div> 
+           
         </div>
 
         <ul class="center">
@@ -28,6 +36,7 @@
             <li><a href="">AI 합격예측</a></li>
         </ul>
 
+
         <div class="right">
             <button id="serch">
             <svg xmlns="https://www.w3.org/2000/svg" 
@@ -36,230 +45,89 @@
             <defs>
             <path id="qt2dnsql4a" d="M15.727 17.273a.563.563 0 10.796-.796l-4.875-4.875-.19-.165a.563.563 0 00-.764.028 5.063 5.063 0 111.261-2.068.562.562 0 101.073.338 6.188 6.188 0 10-1.943 2.894l4.642 4.644z"></path></defs><g fill="none" fill-rule="evenodd"><use fill="#333" fill-rule="nonzero" stroke="#333" stroke-width=".3" xlink:href="#qt2dnsql4a"></use></g></svg>
             </button>
-            <button id="sign">회원가입하기</button>
+            <button id="sign">회원가입/로그인</button>
+                <script>
+                    includeHTML("sign.html");
+                </script>
+                 <!-- sign_div 끝 -->
             <button id="service">기업서비스</button>
         </div>
-    </nav> 
-    <article>
-            <button class="btn" type="button" aria-label="popup navigation button">
-                <span>개발</span>
-                <span class="MoreButton_MoreButton__2UmZ8 MoreButton_active__gSugV" role="button" aria-label="popup navigation button">
-                    <svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                        <path fill="#666" fill-rule="nonzero" 
-                        d="M2.28 3.22a.75.75 0 0 0-1.06 1.06l4.25 4.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0-1.06-1.06L6 6.94 2.28 3.22z">
-                        </path>
-                    </svg>
-                </span>
+        </div> 
+        </div>
+    </nav>
+    <article class="dev_article">
+        <div class="dev_nav">
+            <button class="JobGroup_JobGroup__H1m1m">
+                <p class="JobGroup_JobGroup__title__nZmec">개발</p>
             </button>
-            <button class="btn2">
-                <span>개발 전체</span>
-                <span class="MoreButton_MoreButton__2UmZ8" role="button" aria-label="popup navigation button">
-                    <svg xmlns="https://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
-                        <path fill="#767676" fill-rule="nonzero"
-                        d="M2.28 3.22a.75.75 0 0 0-1.06 1.06l4.25 4.25a.75.75 0 0 0 1.06 0l4.25-4.25a.75.75 0 0 0-1.06-1.06L6 6.94 2.28 3.22z">
-                        </path>
-                    </svg>
-                </span>
+            <button class="more_btn">
+                <img src="../free-icon-down-arrow-3833020.png" alt=""
+                style="height: 26; width:26px;">
             </button>
+
+            <button class="dev_whole_btn">
+                <p>개발전체</p>
+            </button>
+            <button class="more_btn">
+                <img src="../free-icon-down-arrow-3833020.png" alt=""
+                style="height: 26; width:26px;">
+            </button>
+        </div>
     </article>
 
-    <div class="btn1">
-        <div>
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+    <section class="dev_fliter">
+        <div class="dev_fliter_one">
+            <div class="dev_fliter_one_left">
+                <button>
+                    <span>지역
+                        <span>1</span>
+                    </span>
+                    <span>한국</span>
+                </button>
+                <button>
+                    <span>지역
+                        <span>1</span>
+                    </span>
+                    <span>한국</span>
+                </button>
+                <button>
+                    <span>지역
+                        <span>1</span>
+                    </span>
+                    <span>한국</span>
+                </button>
+            </div>
+            <div class="dev_fliter_one_right">
+                <button>
+                    응답률
+                </button>
+            </div>
         </div>
-    </div>
-    <div class="btnbar">
-        <ul class="btnul">
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지  
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지   
-                </button>
-            </li>
-            <li>
-                <button>
-                    연봉이 최고의 복지 
-                </button>
-            </li>
-        </ul>
-    </div>
+        <hr class="divider">
 
-    <div class="ing">
-        <ul class="ingul">
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210915%2F2%2F16220799.jpg&w=500&q=75"
-                        alt="">
-                        <p>이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                        alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                        alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>    
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20210915%2F2%2F16220799.jpg&w=500&q=75"
-                        alt="">
-                        <p>이제부터 본격적으로 애자일 팀을 만들어 볼까요? '라인싸몰'을 운영하는 가상의 팀을 통해 OKR을 설정하고 Portfolio Backlog를 설정하는 방법에 대해 알아봅니다.</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                        alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                        <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75"
-                        alt="">
-                        <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                            각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src=https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fwanted.video.kr.kollus.com%2Fkr%2Fsnapshot%2Fwanted%2F20211124%2F7%2F27374484.jpg&w=500&q=75
-                    alt="">
-                    <p>XYZ 각 세대를 대표하는 75년생 X, 85년생 Y, 95년생 Z가 회사와 조직 생활을 중심으로 서로의 차이를 이해하고, 함께 신뢰, 존중하며 성공적인 내 일(‘미래’ 그리고 ‘나의 일’)에 대해 이야기 합니다.  
-                        각 세대의 특성을 알아보고 세대별로 추구하는 리더십과 팔로워십, 그리고 함께 어울려 만들어가는 조직 문화가 어떤 것인지 확인해보세요!</p>
-                </a>
-            </li>    
-        </ul>
+        <div class="tag">
+            <button style="background: rgb(242, 251, 245);">연봉이 최고의 복지
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F634f02e0-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="연봉이 최고의 복지">
+            </button>
+            <button style="background: rgb(243, 249, 254);">재택근무
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F5d873f3a-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="재택근무">
+            </button>
+            <button style="background: rgb(242, 251, 245);">연봉이 최고의 복지
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F634f02e0-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="연봉이 최고의 복지">
+            </button>
+            <button style="background: rgb(243, 249, 254);">재택근무
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F5d873f3a-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="재택근무">
+            </button>
+            <button style="background: rgb(242, 251, 245);">연봉이 최고의 복지
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F634f02e0-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="연봉이 최고의 복지">
+            </button>
+            <button style="background: rgb(243, 249, 254);">재택근무
+                <img src="https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Ftags%2F5d873f3a-9f6e-11ec-b909-0242ac120002.png&amp;w=50&amp;q=75" alt="재택근무">
+            </button>
 
 
-    </div>
 
+
+        </div>
+    </section>
 </body>
-</html>
