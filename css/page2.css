@@ -128,3 +128,24 @@
     width: 16px;
     align-items: center;
 }
+
+.bookmark{
+    width:1060px;
+    margin:0 auto;
+    display: flex;
+    color: #36f;
+    font-size: 15px;
+    align-items: center;
+}
+
+.fun{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -.3px;
+    color: #333;
+    margin: 20px 0 14px;
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
