@@ -51,3 +51,9 @@ footer{
     margin:1px; 
 
 } 
+
+.footer_row_two{
+    width:1060px;
+    margin:0 auto;
+    font-size:10px;
+}
