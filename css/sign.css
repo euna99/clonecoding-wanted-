@@ -23,21 +23,29 @@
     display: flex;
     border-bottom: 1px solid #ececce;
     color: #333;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    word-wrap: break-word;
+    /* text-align: center; */
+    /* font-size: 16px;
+    font-weight: 600; */
+    /* word-wrap: break-word; */
+    width:fit-content;
 }
 
-.sign_close_btn{
-    background-color: white;
-    width: 17px;
-    height: 17px;
-}
 
 .sign_header img{
     width:70px;
     height: 16px;
+    margin:0 auto;
+    object-fit: fill;
+}
+
+.sign_close_btn{
+    background-color: white;
+    /* width: 17px; */
+    height: 17px;
+    font-size: 17px;
+    font-weight:800;
+    padding-left: 150%;
+    
 }
 
 .sign_h{
@@ -150,4 +158,5 @@
 .sign_social_btn img{
     width:56px;
     height:56px;
+    object-fit: contain;
 }
