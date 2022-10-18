@@ -1,16 +1,17 @@
-
-
+.dev_whole{
+    padding-top: 3rem;
+}
 .dev_article{
     width:100vw;
-    height: 32px;
-    padding: 40px 0 0;
+    height: 72px;
+    padding-top:40px;
 }
 
 .dev_nav{
     width: 1060px;
     height: 32px;
-    margin:0 auto;
     display: flex;
+    margin:0px auto;
 }
 
 .JobGroup_JobGroup__H1m1m {
@@ -49,7 +50,7 @@
 .dev_fliter{
     width:1060px;
     height: 133px;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -148,4 +149,22 @@
     width: 1060px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.fun_div{
+    width: 1060px;
+    height: 270px;
+    margin:0 auto;
+}
+.fun_div a{
+    width:180px;
+    height: 230px;
+    border: 0.5px solid gray;
+    align-items: center;
+}
+
+.fun_div img{
+    width:175px;
+    height: 120px;
+    margin:0 auto;
 }

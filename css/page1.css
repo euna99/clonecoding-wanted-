@@ -57,18 +57,27 @@
     height: 40px;
     padding:0 0 0.5px;
     text-align: center;
-    margin: 1.5% auto;
+    margin: 30px auto;
+    flex-direction: row;
+    align-items: center;
+    /* overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: ; */
 }
 
 .bar button{
+    margin:0 auto;
     padding: 7px 12px;
     border: 1px solid #e1e2e3;
     background-color: white;
-    border-radius: 50px;
 }
 .btnb{
     font-size: 15px;
-    width: 100%;
+    min-width: 100px;
+    width:auto;
+    border-radius: 50px;
+    margin:auto;
+    height: 40px;
     /* font-size: inherit;
     font-weight: inherit;
     display: inherit; */
@@ -313,6 +322,7 @@
 .reason_gr1 img{
     width: 150px;
     height:30px;
+    object-fit: fill;
 }
 
 .reason_gr1 p{
@@ -366,7 +376,7 @@
 
 
 .hire_2{
-    border:1px solid black;
+    border: 0.7px solid #e1e2e3;
     width:250px;
     height: 100px;
     text-align: center;
