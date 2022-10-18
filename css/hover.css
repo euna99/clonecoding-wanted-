@@ -1,28 +1,29 @@
 
-#test{
+#hamber_hover{
     display:none;
     /* overflow-y: scroll; */
     z-index: 1;
     position: absolute;
     background-color: white;
+    margin-top:40px;
 }
-#test ul{
-    border: 1px solid black;
+#hamber_hover ul{
     display: block;
     padding: 5px 100px 5px 10px;
     font-size: 13px;
     line-height: 2.86;
     list-style: none;
+    overflow-y: scroll;
 }
 
-.left:hover #test
+.left:hover #hamber_hover
 {
     display:block;
 } 
 
 
-.sign_div{
-    /* display: none; */
+/* .sign_div{
+
     width:350px;
     height:380px;
     position:absolute;
@@ -88,4 +89,4 @@
     margin-top: 65px;
     color:#01376A;
     font-size: 13px;
-}
+} */

@@ -1,15 +1,22 @@
-
+.div_whole{
+    padding-top: 25px;
+}
 .img_wrap{
+    height:304px;
     display: flex;
     justify-content: center;
-    padding-top:75px;
+    overflow: hidden;
 }
-
+/* section이름 ul이름 li이름 */
 .imgbar{
     height: 300px;
     width:1060px;
     margin: auto;
+    display: flex;
+    overflow: hidden;
+    
 }  
+
 
 /* section 시작 */
 /* 
@@ -338,6 +345,9 @@
     margin:auto;
 }
 
+.hire{
+    padding:60px 0px 80px 0px;
+}
 
 .hire_1{
     font-size: 22px;
@@ -350,7 +360,7 @@
 .hire_container{
     margin:0 auto;
     width:1060px;
-    height:80px;
+    height:120px;
     display:flex;
 }
 

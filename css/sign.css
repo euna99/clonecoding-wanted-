@@ -1,20 +1,26 @@
-html{
-    width:400px;
-    height:600px;
+.sign_background{
+    text-align: center;
+    display: none;
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .sign_div{
-    display: none;
-    width:400px;
-    height:600px;
-    position:absolute;
-    /* top:50%;
-    left:50%   */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    background-color: #fff;
+    display: inline-block;
 }
+
 .sign_header{
-    height: 54px;
+    height: 17px;
     padding: 16px 20px;
-    position: relative;
+    display: flex;
     border-bottom: 1px solid #ececce;
     color: #333;
     text-align: center;
@@ -22,10 +28,18 @@ html{
     font-weight: 600;
     word-wrap: break-word;
 }
+
+.sign_close_btn{
+    background-color: white;
+    width: 17px;
+    height: 17px;
+}
+
 .sign_header img{
     width:70px;
     height: 16px;
 }
+
 .sign_h{
     text-align: center;
     word-break: break-word;
@@ -54,10 +68,7 @@ html{
     flex-direction: column;
     align-items: center;
     width:400px;
-    height:700px;
-    top:50%;
-    left:50%;
-    margin: -175px 0px 0px -190px;
+    /* margin: -175px 0px 0px -190px; */
     background-color:white;
     border: 1px solid #DBDBDB;
     text-align: center;
@@ -88,14 +99,13 @@ html{
 }
 
 
-
 .login_btn{
     width: 302px;
-    height:33px;
+    height:48px;
     margin: 5px 0 5px 0;
     color:white;
-    background-color: #C0DFFD;
-    border-radius: 5px;
+    background-color: blue;
+    border-radius: 50px;
     border-style: none;
     font-size: 15px;
     font-weight: bold;
@@ -106,4 +116,38 @@ html{
     margin-top: 65px;
     color:#01376A;
     font-size: 13px;
+}
+
+.sign_social{
+    display:flex;
+    width:358px;
+    height: 78px;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 360px;
+    max-width: 0 auto;
+}
+
+.sign_social_btn{
+    width:89.5px;
+    height: 78px;
+    display:flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.sign_or{
+    width:356px;
+    height: 16px;
+    margin:5px 0px 15px 0px;
+}
+.sign_social_btn img{
+    width:56px;
+    height:56px;
 }
