@@ -6,7 +6,7 @@
     height:304px;
     width:100vw;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 /* section이름 ul이름 li이름 */
 .imgbar{
@@ -16,7 +16,7 @@
     /* overflow: hidden; */
     /* margin:0 auto; */
     position: absolute;
-    left:-53%;
+    left:-56%;
 }  
 .imgbar li{
     margin: 0px 10px;
@@ -111,7 +111,7 @@
     width: 1080px;
     display: flex;
     flex-wrap: wrap; 
-    list-style: none;
+    /* list-style: none; */
 }
 
 .site li{
