@@ -5,6 +5,7 @@
     border-bottom: 0.5px solid black;
     position:fixed;
     background-color: white;
+    z-index: 90000;
 }
 
 .navbar{

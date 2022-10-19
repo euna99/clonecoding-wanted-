@@ -5,17 +5,22 @@
 .img_wrap{
     height:304px;
     width:100vw;
-    /* position: relative; */
-    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
 }
 /* section이름 ul이름 li이름 */
 .imgbar{
     height:300px;
     width:1060px;
     display:flex;
-    overflow: hidden;
-    margin:0 auto;
+    /* overflow: hidden; */
+    /* margin:0 auto; */
+    position: absolute;
+    left:-53%;
 }  
+.imgbar li{
+    margin: 0px 10px;
+}
 
 /* section 시작 */
 /* 
@@ -65,15 +70,15 @@
 }
 
 .bar button{
-    margin:0 auto;
-    padding: 7px 12px;
+    margin:0px 4px;
+    padding: 9px 22px;
     border: 1px solid #e1e2e3;
     background-color: white;
 }
 .btnb{
     font-size: 15px;
-    min-width: 100px;
-    width:auto;
+    /* min-width: 100px;
+    width:auto; */
     border-radius: 50px;
     margin:auto;
     height: 40px;
