@@ -14,4 +14,4 @@ window.addEventListener('scroll', () => {
         dev_fliter.style.position="unset"
         dev_article.style.display="block"
     }
-  });
+});
